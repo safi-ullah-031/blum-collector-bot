@@ -1,7 +1,7 @@
 pyautogui
 pygetwindow
-keyboard
 pynput
+keyboard
 termcolor
 Pillow
 pyscreeze
