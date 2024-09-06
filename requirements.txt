@@ -1,0 +1,7 @@
+pyautogui
+pygetwindow
+keyboard
+pynput
+termcolor
+Pillow
+pyscreeze
