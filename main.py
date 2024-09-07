@@ -6,7 +6,6 @@ from termcolor import colored
 import keyboard
 import random
 from pynput.mouse import Button, Controller
-
 mouse = Controller()
 time.sleep(0.5)
 
@@ -20,18 +19,19 @@ white_red = '\033[97m\033[41m'
 white_green = '\033[97m\033[42m'
 red_green = '\033[1;91m\033[42m'
 
-def banner():
-    print(f"""{green}
-  {green}|      |                         {yellow}  |             |   
-  {green}__ \   |  |   |  __ `__ \        {yellow}  __ \    _ \   __| 
-  {green}|   |  |  |   |  |   |   | {red}_____|{yellow}  |   |  (   |  |   
- {green}_.__/  _| \__,_| _|  _|  _|       {yellow} _.__/  \___/  \__| {reset}
-    """)
-banner()
+
+
+"""The code is free to use, and anyone can edit and share it without needing permission.
+If someone has a better idea or improvement, they can update the code and push it to the main repository.
+The project creators appreciate support, and users can donate using a specific Ton address.
+For any queries or issues, users can contact the project maintainers through GitHub or by emailing su439178@gmail.com."""
+
+
+
+
 print(f" {white_red}Github: @safi-ullah-031 {reset}")
 print(f" {yellow}Donate (TON) to support us:{white} UQDZcf_U8zGrOJgjNt9zSnsJjJmAgYgrWp6usxzvhgGyYger{reset}")
-print("\n Hello!! this is blum collector bot\n")
-print()
+print(f"{green}If you dont know how this bot works or any other issues just reach me through github")
 
 window_input = f"\n{white} [?] | Press 0 to continue {green}(TelegramDesktop){white}: {reset}"
 window_not_found = f"{white} [>] | Your Window - {{}} {yellow}not found!{reset}"
