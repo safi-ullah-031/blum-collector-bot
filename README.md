@@ -10,14 +10,24 @@ A Python automation script designed to interact with the Telegram Desktop applic
 
 ## Setup
 
-To run this script, it is recommended to use a virtual environment to manage dependencies.
+To run this script, follow these steps:
 
-1. **Create a Virtual Environment**:
-   ```bash
-   python -m venv myenv
-   ```
+1. **Create a Folder**:
+   - Create a folder on your local device.
 
-2. **Activate the Virtual Environment**:
+2. **Clone the Repository**:
+   - Clone the repository into the folder you created:
+     ```bash
+     git clone https://github.com/safi-ullah-031/blum-collector-bot.git
+     ```
+
+3. **Create a Virtual Environment**:
+   - Navigate to the cloned folder and create a virtual environment:
+     ```bash
+     python -m venv myenv
+     ```
+
+4. **Activate the Virtual Environment**:
    - On Windows:
      ```bash
      .\myenv\Scripts\activate
@@ -27,22 +37,21 @@ To run this script, it is recommended to use a virtual environment to manage dep
      source myenv/bin/activate
      ```
 
-3. **Install Dependencies**:
-   Ensure you have the required libraries installed:
-   ```bash
-   pip install -r requirements.txt
-   ```
+5. **Install Dependencies**:
+   - Ensure you have the required libraries installed by running:
+     ```bash
+     pip install -r requirements.txt
+     ```
 
-4. **Run the Script**:
-   Execute the script using Python:
-   ```bash
-   python your_script_name.py
-   ```
+6. **Run the Script**:
+   - Execute the script using Python:
+     ```bash
+     python main.py
+     ```
+   - Follow the prompts to input the window title (e.g., "TelegramDesktop"). The bot will start automating clicks based on pixel color detection.
 
-   Follow the prompts to input the window title (e.g., "TelegramDesktop"). The bot will start automating clicks based on pixel color detection.
-
-5. **Pause/Resume**:
-   Press the spacebar to pause or resume the bot's operation.
+7. **Pause/Resume**:
+   - Press the spacebar to pause or resume the bot's operation.
 
 ## Accuracy
 
@@ -65,3 +74,4 @@ If you find this project helpful, consider supporting us by donating TON:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
